@@ -37,7 +37,7 @@ export default {
     }),
   },
   created() {
-    this.$store.dispatch("book/search", "JavaScript");
+    this.$store.dispatch("book/new");
   },
 };
 </script>

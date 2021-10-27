@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     onSubmit() {
-      this.$store.dispatch("book/search", this.search);
+      this.$router.push({ name: "home", query: { search: this.search } });
     },
   },
 };

@@ -4,9 +4,9 @@ import router from './router'
 import store from './store'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import "./assets/scss/style.scss"
-import HttpService from "./mixins/http-service"
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import HttpService from "./mixins/http-service"
 
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
